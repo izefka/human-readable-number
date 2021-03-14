@@ -54,4 +54,7 @@ module.exports = function toReadable (number) {
             return `${ch[number[0]]} ${ch['100']} ${ch[number[1] + '0']}`;
         } else {
             return `${ch[number[0]]} ${ch['100']} ${ch[number[1] + '0']} ${ch[number[2]]}`;
-        } 
+        }     
+  }  
+
+}
